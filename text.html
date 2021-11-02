@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>امروز =22= شهریور است و =رضایی= خسته است</p>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+    //  var text=  $('p').text().match('=')
+    //  console.log(text);
+    console.log($('p').length);
+    for (let i = 0; i<9 ;) {
+        // var text=  $('p').text().indexOf('=')
+        var text=  $('p').text().match('=')
+        console.log(text);
+        i+=text
+    }
+    </script>
+</body>
+</html>

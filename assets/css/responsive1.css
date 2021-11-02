@@ -1,0 +1,88 @@
+@media(max-width:992px) {
+
+    /* .manage-icon{
+        width: 43px !important;
+        height: 20px !important;
+    } */
+    .sidebar-open {
+        width: 28%;
+    }
+    .order-content-open {
+        width: 72%;
+    }
+}
+
+@media(max-width:768px) {
+    .sidebar-open {
+        width: 37%;
+    }
+
+    .order-content-open {
+        width: 63%;
+    }
+  
+}
+@media(max-width:612px){
+    .serach-result .tickets{
+        min-width: 90%;
+        max-width: 90%;
+    }
+}
+@media(max-width:576px) {
+    .sidebar-open {
+        width: 100%;
+    }
+
+    .order-content-open {
+        width: 100%;
+        padding: 20px 0 0 0 !important;
+    }
+
+    .order-content-open {}
+
+    .sidebar-close {
+        height: 40px;
+        width: 100%;
+    }
+    .new-order{
+        border-radius: 0;
+    }
+    .all-tickets{
+        padding: 0;
+    }
+    .tickets{
+        border-radius: 0;
+    }
+    .order-content-close {
+        width: 100%;
+        padding: 20px 0 !important;
+    }
+
+    .order-contents {
+        border-radius: 0 !important;
+    }
+
+    .nav-link-user {
+        font-size: 13px;
+    }
+
+    .table-responsive::-webkit-scrollbar {
+        display: block !important;
+    }
+    /* visit-technicians */
+    .search-box{
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .search-technician{
+        max-width: unset;
+    }
+    .h-100vh{
+        height: unset;
+    }
+}
+@media(min-width:577px){
+    .table-responsive::-webkit-scrollbar{
+        display: none;
+    }    
+}

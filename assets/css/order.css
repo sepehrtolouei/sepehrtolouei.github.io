@@ -1,0 +1,99 @@
+.radio-button{
+    width: 15px !important;
+    height: 15px !important;
+    margin: 15px 0px 0px 0px !important;
+}
+.form-group{
+    margin: 0px 0px;
+}
+.form-control{
+    margin-bottom: 0px !important;
+}
+.judge{
+    font-size: 18px !important;
+}
+.datepicker-container{
+    top: 976px !important;
+}
+.header-row{
+    display: none !important;
+}
+
+.dpTable{
+    width: 900px !important;
+
+}
+.place::placeholder{
+    margin-top: 0;
+}
+
+
+.form-control::placeholder{
+    padding-top: 15px;
+}
+@media only screen and (min-width: 768px) {
+
+    .price{
+        text-align: center;
+
+    }}
+
+@media only screen and (max-width: 768px) {
+    
+    .price{
+        text-align: right;
+    }
+    .manyRes{
+        align-self: flex-end;
+    }
+     .judge{
+        
+        margin-top: 20px;
+    text-align: center;
+    font-size: 18px !important;
+
+    }
+    .moasese{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .radio{
+        top: 21px !important;
+    }
+    .cont{
+        margin-top: 35px;
+    }
+    .chooseMoney{
+        margin-top: 55px !important;
+    }
+    .dpTable{
+        width: 669px !important;
+
+    }
+    
+    
+     
+    
+}
+@media only screen and (max-width: 480px) {
+    
+    .dpTable{
+        width: 297px !important;
+
+    }
+    
+    
+     
+    
+}
+@media only screen and (max-width: 376px and min-width 299px) {
+    
+    .dpTable{
+        width: 200px !important;
+
+    }
+    
+    
+     
+    
+}
