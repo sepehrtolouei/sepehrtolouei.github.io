@@ -761,14 +761,7 @@
 		});
 	</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.4.0/socket.io.js" integrity="sha512-Y8KodDCDqst1e8z0EGKiqEQq3T8NszmgW2HvsC6+tlNw7kxYxHTLl5Iw/gqZj/6qhZdBt+jYyOsybgSAiB9OOA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-	<script>
-		const socket = new io("ws://192.168.1.17",{
-			path : '/doctor',
-			transports : ['websocket']
-		});
-		socket.connect();
-		socket.on("hello", value => console.log(value))
-	</script>
+	
 
 
 
