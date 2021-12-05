@@ -135,17 +135,22 @@
 														onsubmit="return validation();">
 														<div class="row">
 
-															<div class="form-group col-md-4">
-																<input type="text" name="first_name" class="form-control"
-																placeholder="نام" required="required">
+															<div class="form-group col-md-6">
+																<input type="text" name="first_name"
+																	class="form-control" placeholder="نام"
+																	required="required">
 															</div>
-															<div class="form-group col-md-4">
+															<div class="form-group col-md-6">
 																<input type="text" name="last_name" class="form-control"
-																placeholder="نام خانوادگی" required="required">
+																	placeholder="نام خانوادگی" required="required">
 															</div>
-															<div class="form-group col-md-4">
+															<div class="form-group col-md-6">
 																<input type="text" name="user_name" class="form-control"
 																	placeholder="نام کاربری" required="required">
+															</div>
+															<div class="form-group col-md-6">
+																<input type="text" name="password" class="form-control"
+																	placeholder="رمز عبور" required="required">
 															</div>
 															<div class="form-group col-md-12" style="margin-top: 39px;">
 																<p
@@ -171,7 +176,8 @@
 															</div>
 															<div class="form-group col-md-6">
 																<input type="number" name="mobile" class="form-control"
-																	placeholder="همراه اول یا تلفن همراه"  required="required">
+																	placeholder="همراه اول یا تلفن همراه"
+																	required="required">
 															</div>
 
 															<div class="form-group col-md-6">
@@ -185,11 +191,13 @@
 															</div>
 
 															<div class="form-group col-md-6">
-																<input type="number" name="nationalCode" class="form-control"
-																	placeholder="کدملی" required="required">
+																<input type="number" name="nationalCode"
+																	class="form-control" placeholder="کدملی"
+																	required="required">
 															</div>
 															<div class="form-group col-md-6">
-																<input type="number" name="ُibanNumber" class="form-control"
+																<input type="number" name="ُibanNumber"
+																	class="form-control"
 																	placeholder="شماره شبا ( متعلق به خود شخص )"
 																	required="required">
 															</div>
@@ -223,13 +231,13 @@
 															</div>
 
 															<div class="form-group col-md-12">
-																<textarea rows="3" name="homeAddress" class="form-control"
-																	placeholder="آدرس محل سکونت  "
+																<textarea rows="3" name="homeAddress"
+																	class="form-control" placeholder="آدرس محل سکونت  "
 																	required="required"></textarea>
 															</div>
 															<div class="form-group col-md-12">
-																<textarea rows="3" name="firmAddress" class="form-control"
-																	placeholder="آدرس محل کار  "
+																<textarea rows="3" name="firmAddress"
+																	class="form-control" placeholder="آدرس محل کار  "
 																	required="required"></textarea>
 															</div>
 															<div class="form-group col-md-12" style="margin-top: 49px;">
@@ -297,8 +305,10 @@
 																	placeholder="نام کاربری" required="required">
 															</div>
 															<div class="form-group col-md-6">
-																<input type="number" name="mobile_number" class="form-control"
-																	placeholder="همراه اول یا تلفن همراه"  required="required">
+																<input type="number" name="mobile_number"
+																	class="form-control"
+																	placeholder="همراه اول یا تلفن همراه"
+																	required="required">
 															</div>
 															<div class="form-group col-md-12" style="margin-top: 49px;">
 
@@ -411,7 +421,8 @@
 															</div> -->
 
 															<div class="form-group col-md-12">
-																<textarea rows="6" name="firmAddress" class="form-control"
+																<textarea rows="6" name="firmAddress"
+																	class="form-control"
 																	placeholder="محل استقرار و دفتر اصلی شرکت "
 																	required="required"></textarea>
 															</div>
@@ -452,8 +463,7 @@
 							<div class="offset-lg-1 col-lg-10 col-sm-12 col-xs-12 text-center">
 								<div class="contact">
 									<form class="form" style="direction: rtl;" name="enq" method="post"
-										action="index.php"
-										onsubmit="return validation();">
+										action="index.php" onsubmit="return validation();">
 										<div class="row">
 
 											<div class="form-group col-md-12">
@@ -466,10 +476,14 @@
 													placeholder=" شماره تلفن همراه : (به نام خود شخص) "
 													required="required">
 											</div>
-											<div class="form-group col-md-12">
+											<div class="form-group col-sm-12">
+												<div class="row position-relative">
+													<input type="text" name="safeCode" class="form-control col-8 col-lg-9"
+														placeholder="کد شش رقمی را وارد کنید" required="required">
+													<button type="submit" class="safe position-absolute btn btn-primary col-4 col-lg-3">دریافت رمز یکبار
+														مصرف</button>
 
-												<input type="text" name="safeCode" class="form-control"
-													placeholder="کد شش رقمی را وارد کنید" required="required">
+												</div>
 											</div>
 
 										</div>
@@ -772,8 +786,10 @@
 			btnUpload6.val('');
 		});
 	</script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.4.0/socket.io.js" integrity="sha512-Y8KodDCDqst1e8z0EGKiqEQq3T8NszmgW2HvsC6+tlNw7kxYxHTLl5Iw/gqZj/6qhZdBt+jYyOsybgSAiB9OOA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.4.0/socket.io.js"
+		integrity="sha512-Y8KodDCDqst1e8z0EGKiqEQq3T8NszmgW2HvsC6+tlNw7kxYxHTLl5Iw/gqZj/6qhZdBt+jYyOsybgSAiB9OOA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 
 
 
